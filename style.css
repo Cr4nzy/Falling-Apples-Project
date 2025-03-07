@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    overflow: hidden;
+}
+
+#gameContainer {
+    width: 100vw;
+    height: 80vh;
+    background-color: lightgreen;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 5px solid brown;
+}
+
+#basket {
+    width: 80px;
+    height: 50px;
+    background-color: saddlebrown;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+
+.apple {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+}
+  
+#gameOver {
+    font-size: 2em;
+    color: red;
+    font-weight: bold;
+}
+
+#restartBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#restartBtn:hover {
+    background-color: darkblue;
+}
